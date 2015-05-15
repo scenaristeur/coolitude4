@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.favedave.smag0.coolitude4.Coolitude" >
+
+    <item
+        android:id="@+id/carte_menu"
+        android:orderInCategory="100"
+        android:title="@string/carte_projets"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/ajoute_projet"
+        android:orderInCategory="200"
+        android:title="@string/ajoute_projet"
+        app:showAsAction="never"/>
+ <!--   <item
+        android:id="@+id/mes_projets"
+        android:orderInCategory="400"
+        android:title="@string/mes_projets"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/mon_compte"
+        android:orderInCategory="300"
+        android:title="@string/mon_compte"
+        app:showAsAction="never"/>
+         --> 
+    <item
+        android:id="@+id/derniers_projets"
+        android:orderInCategory="400"
+        android:title="@string/derniers_projets"
+        app:showAsAction="never"/>
+        <item
+        android:id="@+id/derniers_projets100"
+        android:orderInCategory="400"
+        android:title="@string/derniers_projets100"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1000"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+</menu>

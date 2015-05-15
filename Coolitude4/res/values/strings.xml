@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Coolitude4</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="slogan">Avant j\' avais des idées, maintenant j\' ai des partenaires.\n Leonard de Vinci</string>
+    <string name="sAccueil">Utilisez le menu en haut à droite (uniquement sur la page d\'accueil) pour accéder aux différentes fonctionnalités</string>
+    <string name="urgence_locale">Urgence Locale (bientôt dispo)</string>
+    <string name="feedbacktype1">Projet</string>
+    <string name="feedbacktype2">Compétence</string>
+    <string name="feedbacktype3">Suggestion</string>
+    <string name="feedbacktype4">Bug</string>
+    <string name="feedbacktitle">Enregistrement d un projet</string>
+    <string name="feedbackname">Nom</string>
+    <!-- <string name="feedbackemail">Email</string> -->
+    <string name="feedbacktype">Type</string>
+    <string name="feedbackbody">Description</string>
+    <string name="feedbackresponse">Privé (non encore implémenté)</string>
+    <string name="feedbackbutton">Enregistrer</string>
+    <!-- MENU -->
+    <string name="carte_projets">Carte</string>
+    <string name="ajoute_projet">Ajouter un Projet</string>
+    <string name="mon_compte">Mon Compte</string>
+    <string name="mes_projets">Mes Projets</string>
+    <string name="derniers_projets">Derniers Projets</string>
+    <string name="derniers_projets100">100 Derniers Projets</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_Bouton">Menu</string>
+    <string name="action_rdfs:Comment">rdfs:Comment</string>
+    <string name="action_dbpedia:Event">dbpedia:Event</string>
+    <!--  -->
+    <string name="title_activity_carte">Carte</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_mon_compte">MonCompte</string>
+    <string name="title_activity_derniers__projets">Derniers_Projets</string>
+    <string name="title_projet_list">Projets</string>
+    <string name="title_projet_detail">Projet Detail</string>
+    <string name="title_activity_nouveau_projet">Nouveau Projet</string>
+    <string name="titre_projet">Titre Projet</string>
+    <string name="description_courte">Description courte</string>
+    <string name="title_activity_envoi_projet_serveur">Envoi du projet sur le serveur</string>
+    <string name="annuler">Annuler</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="title_activity_web_view_post_new_project">WebViewPostNewProject</string>
+    <string name="title_activity_carte_smag0">Carte des Projets</string>
+    <string name="latitude">latitude</string>
+    <string name="longitude">longitude</string>
+    <string name="btnShowLocation">GPS</string>
+    <string name="search_products_">Rechercher dans le titre.. (pb de curseur, si qqu\'un maitrise-> help !)</string>
+    <string name="title_activity_derniers_projets_liste">Derniers Projets</string>
+    <string name="textdescription">Description</string>
+    <string name="_id_projet_icon">\@+id/projet_icon</string>
+    <string name="todo">TODO</string>
+    <string name="distance">Distance</string>
+    <string name="title_activity_projet_web_view">Projet</string>
+    <string name="title_activity_projets_derniers100">100 Derniers Projets</string>
+    <string name="title_activity_single_project">SingleProjectActivity</string>
+    <string name="titre">Titre</string>
+    <string name="idprojet">idProjet</string>
+    <string name="_00_0123456">00.0123456</string>
+    <string name="_00_987654">00.987654</string>
+    <string name="description">Description</string>
+    <string name="titre_">"Titre : "</string>
+    <string name="idprojet_">"idProjet: "</string>
+    <string name="description_">"Description: "</string>
+    <string name="long_">"long: "</string>
+    <string name="lat_">"lat: "</string>
+    <string name="action">Action</string>
+
+    <!-- MENU de SINGLE PROJECT -->
+    <string name="action_foaf:Agent">foaf:Agent</string>
+    <string name="action_schema:Action">schema:Action</string>
+    <string name="action_geoData">linkedgeodata</string>
+    <string name="action_contexte">Contexte</string>
+    <string name="action_action">Action</string>
+    <string name="action_propriete">Autre Propriété</string>
+    <string name="action_ontologie">Ontologie</string>
+    <string name="action_aide">Aide</string>
+    <string name="title_activity_connaissance_projet">ConnaissanceProjetActivity</string>
+    <string name="classe">Classe</string>
+    <string name="deux_points">:</string>
+    <string name="prefix">prefix</string>
+    <string name="ssclass1">SsClass1</string>
+    <string name="ssclass2">SsClass2</string>
+    <string name="ssclass3">SsClass3</string>
+ 
+    <!-- Connaissance Projet -->
+    <string name="type">type</string>
+    <string name="title_activity_ajoute_classe_propriete">Ajoute une Classe à un Projet</string>
+    <string name="ajouter_un_une_">"Ajouter un/une : "</string>
+    <string name="classeajoute">ClasseAjoute</string>
+    <string name="literal">Literal</string>
+    <string name="ajouter_la_ressource">Ajouter la ressource</string>
+    <string name="nom_de_la_ressource">Nom de la Ressource</string>
+    <string name="ressource">Ressource</string>
+    <string name="title_activity_envoi_ressource_serveur">Envoi de la Ressource sur le serveur</string>
+    <string name="title_activity_web_view_post_new_resource">Ajout d\'une Resource</string>
+    <string name="title_activity_action">Action</string>
+    <string name="dernierscomms">Affichage ici des derniers commentaires sur ce projet (bientôt dispo)</string>
+    <string name="autrespropri_t_s">et des autres propriétés</string>
+    <string name="acteursprojet_"> des acteurs du projet</string>
+
+</resources>

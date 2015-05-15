@@ -1,0 +1,62 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.favedave.smag0.coolitude4.SingleProjectActivity" >
+
+      <item
+        android:id="@+id/action_rdfs_Comment"
+        android:orderInCategory="100"
+        android:title="@string/action_rdfs:Comment"
+        app:showAsAction="never"/>
+      <item
+        android:id="@+id/action_foaf_Agent"
+        android:orderInCategory="100"
+        android:title="@string/action_foaf:Agent"
+        app:showAsAction="never"/>
+      <item
+        android:id="@+id/action_dbpedia_Event"
+        android:orderInCategory="100"
+        android:title="@string/action_dbpedia:Event"
+        app:showAsAction="never"/>
+      
+  <!-- linkedgeodata 
+      <item       
+        android:id="@+id/action_geoData"
+        android:orderInCategory="100"
+        android:title="@string/action_geoData"
+        app:showAsAction="never"/>
+   <item
+        android:id="@+id/action_Contexte"
+        android:orderInCategory="100"
+        android:title="@string/action_contexte"
+        app:showAsAction="never"/>
+   <item
+        android:id="@+id/action_Action"
+        android:orderInCategory="100"
+        android:title="@string/action_action"
+        app:showAsAction="never"/>
+   <item
+        android:id="@+id/action_Propriete"
+        android:orderInCategory="100"
+        android:title="@string/action_propriete"
+        app:showAsAction="never"/>
+   <item
+        android:id="@+id/action_Ontologie"
+        android:orderInCategory="100"
+        android:title="@string/action_ontologie"
+        app:showAsAction="never"/>
+        -->
+      <item
+        android:id="@+id/action_Aide"
+        android:orderInCategory="100"
+        android:title="@string/action_aide"
+        app:showAsAction="never"/>          
+    
+    
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+</menu>

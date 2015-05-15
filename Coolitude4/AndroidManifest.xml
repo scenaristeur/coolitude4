@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xml>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.favedave.smag0.coolitude4"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Coolitude"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CarteActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_carte"
+            android:theme="@style/FullscreenTheme" >
+
+            <!--
+                 <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".MonCompte"
+            android:label="@string/title_activity_mon_compte" >
+        </activity>
+        <activity
+            android:name=".Derniers_Projets"
+            android:label="@string/title_activity_derniers__projets"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".ProjetListActivity"
+            android:label="@string/title_projet_list" >
+
+            <!--
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".ProjetDetailActivity"
+            android:label="@string/title_projet_detail" >
+
+            <!-- android:parentActivityName=".ProjetListActivity" -->
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.favedave.smag0.coolitude4.ProjetListActivity" />
+        </activity>
+        <activity
+            android:name=".NouveauProjetActivity"
+            android:label="@string/title_activity_nouveau_projet" >
+
+            <!--
+                 <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".EnvoiProjetServeurActivity"
+            android:label="@string/title_activity_envoi_projet_serveur" >
+        </activity>
+        <activity
+            android:name=".WebViewPostNewProject"
+            android:label="@string/title_activity_web_view_post_new_project" >
+        </activity>
+        <activity
+            android:name=".CarteSmag0"
+            android:label="@string/title_activity_carte_smag0" >
+        </activity>
+        <activity
+            android:name=".DerniersProjetsListeActivity"
+            android:label="@string/title_activity_derniers_projets_liste" >
+        </activity>
+        <activity
+            android:name=".ProjetWebViewActivity"
+            android:label="@string/title_activity_projet_web_view" >
+        </activity>
+        <activity
+            android:name=".ProjetsDerniers100Activity"
+            android:label="@string/title_activity_projets_derniers100" >
+        </activity>
+        <activity
+            android:name=".SingleProjectActivity"
+            android:label="@string/title_activity_single_project" >
+        </activity>
+        <activity
+            android:name=".ConnaissanceProjetActivity"
+            android:label="@string/title_activity_connaissance_projet" >
+        </activity>
+        <activity
+            android:name=".AjouteClassePropriete"
+            android:label="@string/title_activity_ajoute_classe_propriete" >
+        </activity>
+        <activity
+            android:name=".WebViewPostNewResourceActivity"
+            android:label="@string/title_activity_web_view_post_new_resource" >
+        </activity>
+        <activity
+            android:name=".Action"
+            android:label="@string/title_activity_action" >
+        </activity>
+    </application>
+
+</manifest>

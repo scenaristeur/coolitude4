@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/titreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:paddingTop="6dip"
+            android:text="@string/titre_"
+            android:textColor="#43bd00"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:gravity="end" >
+
+            <TextView
+                android:id="@+id/latitudeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="@string/lat_"
+                android:textColor="#5d5d5d"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/longitudeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="@string/long_"
+                android:textColor="#5d5d5d"
+                android:textStyle="bold" />
+        </LinearLayout>
+<!-- 
+        <Button
+            android:id="@+id/enregistrer_Bouton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="@string/menu_Bouton"/>
+ 
+ -->
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/idProjetTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:text="@string/idprojet_"
+        android:textColor="#acacac" />
+
+    <!-- Description -->
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="13"
+        android:gravity="start"
+        android:scrollbars="vertical"
+        android:text="@string/description_"
+        android:textColor="#5d5d5d"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDerniersComms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dernierscomms"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/acteursprojet_"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/autrespropri_t_s"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>

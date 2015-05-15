@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="org.favedave.smag0.coolitude4.Action" >
+
+    <!--
+         Main ListView 
+         Always give id value as list(@android:id/list)
+   -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewAjouter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ajouter_un_une_" />
+
+            <TextView
+                android:id="@+id/textViewClasse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/classeajoute"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radioGroupTypeDeResource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radioLiteral"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/literal" />
+
+            <RadioButton
+                android:id="@+id/radioResource"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ressource" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editTextResourceName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/nom_de_la_ressource"
+            android:inputType="textCapWords" >
+
+            <requestFocus android:layout_width="wrap_content" />
+
+        </EditText>
+
+        <Button
+            android:id="@+id/buttonAjouteRessource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ajouterLaResource"
+            android:text="@string/ajouter_la_ressource" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
