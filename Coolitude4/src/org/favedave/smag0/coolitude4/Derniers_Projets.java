@@ -68,7 +68,7 @@ public class Derniers_Projets extends ActionBarActivity {
 		lv.setAdapter(adapter);
 
 		lv.setOnItemClickListener(new OnItemClickListener() {
-			private String racine = "http://smag-smag0.rhcloud.com/projet.jsp?projet=";
+			private String racine = "http://smag-smag0.rhcloud.com/projetExplore.jsp?projet=";
 
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view,
